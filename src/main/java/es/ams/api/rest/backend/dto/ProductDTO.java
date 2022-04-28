@@ -9,6 +9,8 @@ import java.io.Serializable;
  * The lombok library implements the access methods to the class.
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class ProductDTO implements Serializable {
     private String id;
     private String name;
